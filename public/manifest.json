@@ -1,6 +1,6 @@
 {
   "short_name": "React Todo",
-  "name": "Create React App TypeScript Todo Example 2020",
+  "name": "Use App State Todo App",
   "icons":[
     {
       "src": "favicon.ico",

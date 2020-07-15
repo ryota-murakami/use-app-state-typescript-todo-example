@@ -1,4 +1,4 @@
-# Create React App TypeScript Todo Example 2020 
+# Use App State Todo App
 
 [![Cypress.io tests](https://img.shields.io/badge/cypress.io-tests-green.svg?style=flat-square)](https://cypress.io)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
