@@ -3,7 +3,6 @@ context('Real World Usecase', () => {
     cy.submitTripleTodos()
   })
   it('will try all function in one session', () => {
-    cy.percySnapshot('3 Todo Items')
     // remain task counter can display correct number
     cy.get('[data-cy=remaining-uncompleted-todo-count]').should('contain', '3')
     // [state: 3 todo, 0 completed] it doesn't show "Clear cmpleted" button on footer
