@@ -1,6 +1,6 @@
 {
   "short_name": "React Todo",
-  "name": "Use App State Todo App",
+  "name": "Use App State Todo Example",
   "icons":[
     {
       "src": "favicon.ico",

@@ -1,6 +1,5 @@
 # Use App State Todo App [![Netlify Status](https://api.netlify.com/api/v1/badges/acb0b85b-1c09-487f-84a4-a087c02d757a/deploy-status)](https://app.netlify.com/sites/use-app-state-todo-app/deploys)
 
-![CI](https://github.com/ryota-murakami/use-app-state-todo-app/workflows/CI/badge.svg)
 [![Cypress.io tests](https://img.shields.io/badge/cypress.io-tests-green.svg?style=flat-square)](https://cypress.io)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
