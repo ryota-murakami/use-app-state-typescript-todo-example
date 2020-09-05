@@ -1,5 +1,5 @@
 {
-  "name": "use-app-state-todo-example",
+  "name": "use-app-state-typescript-todo-example",
   "browserslist": {
     "production": [
       ">0.2%",
