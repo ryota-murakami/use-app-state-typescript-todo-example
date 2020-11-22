@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import styled from 'styled-components'
 
 /**
@@ -10,10 +10,12 @@ class ErrorBoundary extends Component {
     info: null,
   }
 
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   componentDidCatch(error, info) {
     this.setState({ error, info })
   }
 
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   render() {
     const { error } = this.state
     if (error) {
