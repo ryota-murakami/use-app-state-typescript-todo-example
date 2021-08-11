@@ -1,5 +1,5 @@
 import React, { useState, createRef, useEffect } from 'react'
-import { AppState, Todo, TodoListType } from '../../../index'
+import type { AppState, Todo, TodoListType } from '../../../index'
 import { useAppState } from '@laststance/use-app-state'
 import { Container } from './style'
 

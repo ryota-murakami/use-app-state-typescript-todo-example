@@ -2,7 +2,7 @@ import React from 'react'
 import { render } from '@testing-library/react'
 import Provider from '@laststance/use-app-state'
 import TodoTextInput from './index'
-import { AppState } from '../../index'
+import type { AppState } from '../../index'
 import '@testing-library/jest-dom'
 
 const initialState: AppState = {

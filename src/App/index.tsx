@@ -4,8 +4,8 @@ import TodoTextInput from './TodoTextInput'
 import TodoList from './TodoList'
 import Menu from './Menu'
 import Copyright from './Copyright'
-import { Routes, AppState } from '../index'
-import { RouteComponentProps } from '@reach/router'
+import type { Routes, AppState } from '../index'
+import type { RouteComponentProps } from '@reach/router'
 import { Container } from './style'
 
 export enum LocalStorageKey {

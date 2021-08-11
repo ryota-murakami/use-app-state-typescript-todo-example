@@ -3,7 +3,7 @@ import { render, fireEvent } from '@testing-library/react'
 import Provider from '@laststance/use-app-state'
 import '@testing-library/jest-dom'
 import TodoList from './index'
-import { AppState } from '../../index'
+import type { AppState } from '../../index'
 
 const initialAppState: AppState = {
   todoList: [

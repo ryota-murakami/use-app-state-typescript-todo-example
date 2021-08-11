@@ -1,6 +1,6 @@
 import React from 'react'
 import FilterLink from './FilterLink'
-import { Routes, Todo, AppState } from '../../index'
+import type { Routes, Todo, AppState } from '../../index'
 import { useAppState } from '@laststance/use-app-state'
 import { Container } from './style'
 

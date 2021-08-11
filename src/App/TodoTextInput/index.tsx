@@ -1,6 +1,6 @@
 import React, { createRef } from 'react'
 import { UUID } from '../../functions'
-import { Todo, AppState } from '../../index'
+import type { Todo, AppState } from '../../index'
 import { useAppState } from '@laststance/use-app-state'
 import { Container } from './style'
 
@@ -38,7 +38,6 @@ const TodoTextInput: React.FC = () => {
           placeholder="What needs to be done?"
           ref={textInput}
           onKeyPress={(e: React.KeyboardEvent<HTMLInputElement>) => addTodo(e)}
-          autoFocus
           data-testid="new-todo-input-text"
           data-cy="new-todo-input-text"
         />

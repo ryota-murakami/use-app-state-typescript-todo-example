@@ -1,5 +1,6 @@
-import React, { ReactElement } from 'react'
-import { Routes, Todo, AppState } from '../../index'
+import type { ReactElement } from 'react'
+import React from 'react'
+import type { Routes, Todo, AppState } from '../../index'
 import Item from './Item'
 import { useAppState } from '@laststance/use-app-state'
 import { Container } from './style'
